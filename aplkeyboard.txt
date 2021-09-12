@@ -1,0 +1,99 @@
+APL Keyboard
+
+╔════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦════╦═════════╗
+║ ~  ║ !⌶ ║ @⍫ ║ #⍒ ║ $⍋ ║ %⌽ ║ ^⍉ ║ &⊖ ║ *⍟ ║ (⍱ ║ )⍲ ║ _! ║ +⌹ ║         ║
+║ `◊ ║ 1¨ ║ 2¯ ║ 3< ║ 4≤ ║ 5= ║ 6≥ ║ 7> ║ 8≠ ║ 9∨ ║ 0∧ ║ -× ║ =÷ ║ BACKSP  ║
+╠════╩══╦═╩══╦═╩══╦═╩══╦═╩══╦═╩══╦═╩══╦═╩══╦═╩══╦═╩══╦═╩══╦═╩══╦═╩══╦══════╣
+║       ║ Q  ║ W⍹ ║ E⋸ ║ R  ║ T⍨ ║ Y¥ ║ U  ║ I⍸ ║ O⍥ ║ P⍣ ║ {⍞ ║ }⍬ ║  |⊣  ║
+║  TAB  ║ q? ║ w⍵ ║ e∈ ║ r⍴ ║ t∼ ║ y↑ ║ u↓ ║ i⍳ ║ o○ ║ p⋆ ║ [← ║ ]→ ║  \⊢  ║
+╠═══════╩═╦══╩═╦══╩═╦══╩═╦══╩═╦══╩═╦══╩═╦══╩═╦══╩═╦══╩═╦══╩═╦══╩═╦══╩══════╣
+║ (CAPS   ║ A⍶ ║ S  ║ D  ║ F  ║ G  ║ H  ║ J⍤ ║ K  ║ L⌷ ║ :≡ ║ "≢ ║         ║
+║  LOCK)  ║ a⍺ ║ s⌈ ║ d⌊ ║ f_ ║ g∇ ║ h∆ ║ j∘ ║ k' ║ l⎕ ║ ;⍎ ║ '⍕ ║ RETURN  ║
+╠═════════╩═══╦╩═══╦╩═══╦╩═══╦╩═══╦╩═══╦╩═══╦╩═══╦╩═══╦╩═══╦╩═══╦╩═════════╣
+║             ║ Z  ║ Xχ ║ C¢ ║ V  ║ B£ ║ N  ║ M  ║ <⍪ ║ >⍙ ║ ?⍠ ║          ║
+║  SHIFT      ║ z⊂ ║ x⊃ ║ c∩ ║ v∪ ║ b⊥ ║ n⊤ ║ m| ║ ,⍝ ║ .⍀ ║ /⌿ ║  SHIFT   ║
+╚═════════════╩════╩════╩════╩════╩════╩════╩════╩════╩════╩════╩══════════╝
+
+Usage: mark (single) APL characters here and copy/paste them into,
+for example, the APL input: input field of a try-GNU-APL window. 
+
+	inoremap `` ◊
+	inoremap `1 ¨
+	inoremap `! ⌶
+	inoremap `2 ¯
+	inoremap `@ ⍫
+	inoremap `3 <
+	inoremap `# ⍒
+	inoremap `4 ≤
+	inoremap `$ ⍋
+	inoremap `5 =
+	inoremap `% ⌽
+	inoremap `6 ≥
+	inoremap `^ ⍉
+	inoremap `7 >
+	inoremap `& ⊖
+	inoremap `8 ≠
+	inoremap `* ⍟
+	inoremap `9 ∨
+	inoremap `( ⍱
+	inoremap `0 ∧
+	inoremap `) ⍲
+	inoremap `- ×
+	inoremap `_ !
+	inoremap `= ÷
+	inoremap `+ ⌹
+	inoremap `q ?
+	inoremap `w ⍵
+	inoremap `W ⍹
+	inoremap `e ∈
+	inoremap `E ⋸
+	inoremap `r ⍴
+	inoremap `t ∼
+	inoremap `T ⍨
+	inoremap `y ↑
+	inoremap `Y ¥
+	inoremap `u ↓
+	inoremap `i ⍳
+	inoremap `I ⍸
+	inoremap `o ○
+	inoremap `O ⍥
+	inoremap `p ⋆
+	inoremap `P ⍣
+	inoremap `[ ←
+	inoremap `{ ⍞
+	inoremap `] →
+	inoremap `} ⍬
+	inoremap `\ ⊢
+	inoremap `| ⊣
+	inoremap `a ⍺
+	inoremap `A ⍶
+	inoremap `s ⌈
+	inoremap `d ⌊
+	inoremap `f _
+	inoremap `g ∇
+	inoremap `h ∆
+	inoremap `j ∘
+	inoremap `J ⍤
+	inoremap `k '
+	inoremap `l ⎕
+	inoremap `L ⌷
+	inoremap `; ⍎
+	inoremap `: ≡
+	inoremap `' ⍕
+	inoremap `" ≢
+	inoremap `z ⊂
+	inoremap `x ⊃
+	inoremap `X χ
+	inoremap `c ∩
+	inoremap `C ¢
+	inoremap `v ∪
+	inoremap `b ⊥
+	inoremap `B £
+	inoremap `n ⊤
+	inoremap `m |
+	inoremap `, ⍝
+	inoremap `< ⍪
+	inoremap `. ⍀
+	inoremap `> ⍙
+	inoremap `/ ⌿
+	inoremap `? ⍠
